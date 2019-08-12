@@ -1,0 +1,16 @@
+# Problem 1
+#
+# Create a player file that can be used to inject a daily heating setpoint schedule.  
+# Nighttime (72degF) is 9PM to 6AM and daytime (75degF) is 6AM to 9PM.
+# (Hint: use relative times.)
+#
+# Solution
+#
+# It is important to realize that schedules "wrap around" so that the 9 hour period
+# from 9pm to 6am must be divided into a 3 hour period from 9am to midnight and 6
+# hour period from midnight to 6am
+#
+2000-01-01 00:00:00, 72
++6h, 75
++15h, 72
++3h, 72
