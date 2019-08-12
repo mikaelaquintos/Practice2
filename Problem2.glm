@@ -22,10 +22,10 @@ clock{
 //2. What is this object using? Player, recorder, schedules...
 //3. What propeties need to be established for input or output?
 
-object house {
-	object player{	 	
+object house { //Parent
+	object player{	 //Child	
 		property heating_setpoint; 
 		file "excercise_1.player";
 		loop 28;		//Why loop 28 for a simulation fo 4 weeks?
-	}
+	};					
 }
