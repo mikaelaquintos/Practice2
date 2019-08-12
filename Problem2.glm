@@ -1,3 +1,4 @@
+script on_term "gridlabd excercise_1.player";
 // Problem 2
 //
 // Attach the player to a default house and run the simulation for 4 weeks. 
