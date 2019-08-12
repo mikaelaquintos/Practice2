@@ -16,7 +16,7 @@ jobs:
           name: Run the simulation
           command: |
             git checkout player
-            gridlabd Practice2.glm
+            gridlabd Problem2.glm
             echo "Model finished"
 
 
